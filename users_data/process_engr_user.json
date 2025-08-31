@@ -1,0 +1,25 @@
+{
+  "id": "test-user-001",
+  "name": "Adaobi Okafor",
+  "role": "Process Engineer",
+  "cgpa": 4.85,
+  "skills": [
+    {"name": "Robotics", "level": "Intermediate"},
+    {"name": "CAD Modelling", "level": "Basic"}
+  ],
+  "learning_history": [
+    {"skill": "Robotics", "last_updated": "2025-07-15", "proficiency": "Intermediate"}
+  ],
+  "goals": ["Work in industrial automation", "Publish research on process optimization"],
+
+  "assessment_result": {
+    "technical_skills": {
+      "Robotics": {"score": 85, "comments": "Strong understanding of robotic systems."},
+      "CAD Modelling": {"score": 70, "comments": "Basic proficiency, needs improvement."}
+    },
+    "soft_skills": {
+      "Communication": {"score": 90, "comments": "Excellent verbal and written skills."},
+      "Teamwork": {"score": 80, "comments": "Collaborates well with others."}
+    }
+  }
+}

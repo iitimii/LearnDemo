@@ -1,0 +1,59 @@
+{
+  "id": "fs-dev-001",
+  "name": "Chinedu Babalola",
+  "role": "Full Stack Developer",
+  "cgpa": 4.65,
+  "skills": [
+    {"name": "Frontend Development (React, Vue)", "level": "Advanced"},
+    {"name": "Backend Development (Node.js, Express)", "level": "Advanced"},
+    {"name": "Databases (PostgreSQL, MongoDB)", "level": "Intermediate"},
+    {"name": "DevOps (Docker, CI/CD)", "level": "Basic"},
+    {"name": "Cloud Platforms (AWS, GCP)", "level": "Basic"}
+  ],
+  "learning_history": [
+    {"skill": "Frontend Development", "last_updated": "2025-06-20", "proficiency": "Advanced"},
+    {"skill": "Backend Development", "last_updated": "2025-05-15", "proficiency": "Advanced"},
+    {"skill": "Databases", "last_updated": "2025-07-10", "proficiency": "Intermediate"},
+    {"skill": "DevOps", "last_updated": "2025-08-01", "proficiency": "Basic"}
+  ],
+  "goals": [
+    "Build scalable web applications used by millions",
+    "Contribute to open-source full stack frameworks",
+    "Grow expertise in cloud-native architectures"
+  ],
+
+  "assessment_result": {
+    "technical_skills": {
+      "Frontend Development": {
+        "score": 92,
+        "comments": "Strong command of React and modern frontend practices."
+      },
+      "Backend Development": {
+        "score": 88,
+        "comments": "Capable of building secure and efficient APIs."
+      },
+      "Databases": {
+        "score": 75,
+        "comments": "Understands SQL/NoSQL, but needs deeper optimization knowledge."
+      },
+      "DevOps": {
+        "score": 65,
+        "comments": "Basic CI/CD knowledge, should improve on container orchestration."
+      }
+    },
+    "soft_skills": {
+      "Communication": {
+        "score": 85,
+        "comments": "Clear and effective in team discussions."
+      },
+      "Problem-Solving": {
+        "score": 90,
+        "comments": "Quick to debug and design efficient solutions."
+      },
+      "Teamwork": {
+        "score": 80,
+        "comments": "Good collaborator, adapts well to agile environments."
+      }
+    }
+  }
+}

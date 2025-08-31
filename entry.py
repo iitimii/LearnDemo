@@ -248,7 +248,7 @@ class JobAnalyzer:
                     "Compare the user's current skills with the job requirements and identify gaps. "
                     "For each gap, provide:\n"
                     "- skill_name: The name of the skill\n"
-                    "- current_level: User's current proficiency (none/beginner/intermediate/advanced/expert)\n"
+                    "- current_level: User's current proficiency (none/bntermediaeginner/ite/advanced/expert)\n"
                     "- required_level: Required proficiency level\n"
                     "- gap_severity: low/medium/high/critical\n"
                 )
