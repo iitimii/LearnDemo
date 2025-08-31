@@ -11,3 +11,4 @@ duckduckgo-search
 tiktoken
 numpy
 pandas
+langgraph
