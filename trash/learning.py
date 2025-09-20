@@ -1,8 +1,3 @@
-# learning.py
-
-#TODO take into account current proficiency to determine what it gives to you, and auto updates
-# 
-
 import requests
 import json
 import datetime
@@ -235,6 +230,11 @@ class LearningPlatform:
                 
         except Exception as e:
             print("📚 Search temporarily unavailable, continuing with current knowledge...\n")
+    
+    def save_session(self):
+        data = {"last_session_date": self.last_session_date.isoformat(),
+                "current_skill": self.current_skill,
+                "chat_transcript": self.llm}  # Placeholder for chat transcript
 
     def run(self):
         """Main tutor loop with ReAct agent integration"""
@@ -289,33 +289,3 @@ def debug_agent_execution(platform: LearningPlatform, query: str):
                 print("🔧 Tool used:", chunk["tools"]["messages"][-1].content[:100] + "...")
     except Exception as e:
         print(f"Debug failed: {e}")
-
-# Example usage and setup:
-# 
-# 1. Install required dependencies:
-#    pip install langchain-google-genai langchain-tavily langgraph requests
-# 
-# 2. Get API keys:
-#    - Google Gemini API key from https://ai.google.dev/
-#    - Tavily API key from https://tavily.com/ (1000 free searches/month)
-# 
-# 3. Initialize the platform:
-#    platform = LearningPlatform(
-#        api_key="your_google_api_key",
-#        report=your_skill_report,
-#        tavily_api_key="your_tavily_api_key"
-#    )
-#    platform.run()
-#
-# Benefits of using Tavily:
-# - Results are pre-processed and optimized for AI consumption
-# - No HTML parsing or web scraping needed
-# - Better accuracy and relevance for educational content
-# - Built-in filtering for educational and tutorial content
-# - Faster and more reliable than scraping approaches
-#
-# The agent will now:
-# - Automatically search for current information when teaching
-# - Find the best tutorials and learning resources
-# - Provide updates on skill developments when users return
-# - Use reasoning to decide when to search vs. use existing knowledge

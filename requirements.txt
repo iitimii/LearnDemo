@@ -12,3 +12,7 @@ tiktoken
 numpy
 pandas
 langgraph
+spacy
+pyresparser
+gunicorn
+uvicorn

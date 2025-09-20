@@ -1,0 +1,8 @@
+# learning.py
+
+take into account current proficiency to determine what it gives to you, and auto updates
+Ensure MAAC is working, save transcript and after login, check for latest news
+Conversational AI voice, TTwilio, ElevenLabs
+End points with Lekan
+Create apio endpoints - [entry, chat]
+LinkedIn and CV for user data - LLM will parse through CV or linkedin profile and produce a json report of user data - need to talk with Abundance tho because he's in charge of assessments

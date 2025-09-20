@@ -26,8 +26,8 @@ from typing import Dict, List, Any, Optional
 import streamlit as st
 
 # --- Your core modules ---
-from entry import JobAnalyzer
-from learning import LearningPlatform
+from trash.entry import JobAnalyzer
+from trash.learning import LearningPlatform
 
 from dotenv import load_dotenv
 load_dotenv()
